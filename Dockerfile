@@ -27,7 +27,7 @@ ENV USE_CCACHE 1
 # ccache maximum size. It should be a number followed by an optional suffix: k,
 # M, G, T (decimal), Ki, Mi, Gi or Ti (binary). The default suffix is G. Use 0
 # for no limit.
-ENV CCACHE_SIZE 50G
+ENV CCACHE_SIZE 100G
 
 # We need to specify the ccache binary since it is no longer packaged along with AOSP
 ENV CCACHE_EXEC /usr/bin/ccache
@@ -48,8 +48,8 @@ ENV RELEASE_TYPE 'UNOFFICIAL'
 ENV OTA_URL ''
 
 # User identity
-ENV USER_NAME 'LineageOS Buildbot'
-ENV USER_MAIL 'lineageos-buildbot@docker.host'
+ENV USER_NAME 'Piotr Matela'
+ENV USER_MAIL 'piotrekmat@protonmail.com'
 
 # Include proprietary files, downloaded automatically from github.com/TheMuppets/ and gitlab.com/the-muppets/
 # Only some branches are supported
